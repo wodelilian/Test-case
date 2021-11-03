@@ -7,9 +7,9 @@ class Modsize:
         self.web.openbrowser()
 
     def login(self):
-        self.web.geturl('http://192.168.0.250:6998/')
-        self.web.input('//*[@id="userName"]','admin')
-        self.web.input('//input[@class="userPwd"]','123456')
+        self.web.geturl('url')
+        self.web.input('//*[@id="userName"]','user')
+        self.web.input('//input[@class="userPwd"]','pwd')
         self.web.click('//button[@type="button"]')
 
     def search_window(self):
