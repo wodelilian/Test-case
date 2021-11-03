@@ -11,8 +11,7 @@ class Test_Login():
 
 
     def test_login(self):
-        self.driver.get('http://47.108.13.13:6983')
-        self.driver.find_element_by_xpath('//*[@id="userName"]').send_keys('admin')
-        self.driver.find_element_by_xpath('//input[@class="userPwd"]').send_keys("Ycya!@#123")
+        self.driver.get('url')
+        self.driver.find_element_by_xpath('//*[@id="userName"]').send_keys('user')
+        self.driver.find_element_by_xpath('//input[@class="userPwd"]').send_keys("pwd")
         self.driver.find_element_by_xpath('//button[@type="button"')
-
