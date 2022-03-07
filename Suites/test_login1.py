@@ -7,6 +7,7 @@ def test_login():
     driver.get('url')
     driver.find_element_by_xpath('//*[@id="userName"]').send_keys('user')
     # driver.find_element(by="ID", value='su')
+    # driver.find_element(by="ID", value='su')
     driver.find_element_by_xpath('//input[@class="userPwd"]').send_keys("pwd")
     driver.find_element_by_xpath('//button[@type="button"').click()
 
